@@ -1,0 +1,39 @@
+.config-button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  border: none;
+  padding: 15px 18px;
+  border-radius: 24px;
+  margin: 0 7px;
+  transition: 0.3s ease-in-out;
+}
+.text_white {
+  color: white;
+}
+.text_blue {
+  color: #7e88c3;
+}
+.bg_red {
+  background: #ec5757;
+}
+.bg_blue {
+  background: #7c5dfa;
+}
+.bg_opacity {
+  background: #f9fafe;
+}
+
+.config-button:hover {
+  cursor: pointer;
+}
+
+.bg_opacity:hover {
+  background: #dfe3fa;
+}
+.bg_red:hover {
+  background: #ff9797;
+}
+.bg_blue:hover {
+  background: #9277ff;
+}

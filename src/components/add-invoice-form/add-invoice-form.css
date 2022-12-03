@@ -1,0 +1,67 @@
+.add-invoice__form{
+  width: 500px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+}
+.add-invoice__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #0c0e16;
+  margin-bottom: 30px;
+}
+
+.add-invoice__input p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.25px;
+
+  /* color: #7e88c3; */
+  margin: 7px 0;
+}
+.add-invoice__input input {
+  background: #ffffff;
+  border: 1px solid #dfe3fa;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.add-invoice__data-and-select{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.add-invoice__data-and-select .date-input{
+  width: 140%;
+  padding: 0 10px;
+}
+.right-input{
+  margin-left: 70px;
+}
+.add-invoice__input select{
+  width: 190%;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #dfe3fa;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+.add-invoice__buttons-Field{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

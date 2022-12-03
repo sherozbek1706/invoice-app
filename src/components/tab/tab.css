@@ -1,0 +1,61 @@
+.tab {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 100vh;
+  border-radius: 0 20px 20px 0;
+  background: #373b53;
+}
+.tab__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  border-radius: 0 20px 20px 0;
+  background: linear-gradient(
+    to bottom,
+    #7c5dfa,
+    #7c5dfa,
+    #7c5dfa,
+    #7c5dfa,
+    #9277ff,
+    #9277ff,
+    #9277ff,
+    #9277ff
+  );
+}
+.tab__head img {
+  height: 30px;
+  margin: 5px;
+}
+.tab__login {
+  width: 80px;
+  border-top: 0.5px solid #494e6e;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tab__login img{
+  height: 44px;
+}
+.tab__login i{
+  font-size: 24px;
+  margin: 8px;
+  color: #fff;
+  transition: .3s ease-in-out;
+  padding: 10px;
+  background-color: #7c5dfa;
+  border-radius:50% ;
+}
+.tab__login i:hover{
+  color: red;
+  cursor: pointer;
+}

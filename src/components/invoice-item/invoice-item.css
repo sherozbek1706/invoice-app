@@ -1,0 +1,111 @@
+.invoice-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 750px;
+  height: 70px;
+  background: #ffffff;
+  box-shadow: 0px 1 0px 10px -10px rgba(72, 84, 159, 0.100397);
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 0 20px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid white;
+}
+
+.invoice-item:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  border: 1px solid #7c5dfa;
+  box-shadow: 0px 10px 10px -10px, rgba(72, 84, 159, 0.100397);
+  /* border-radius: 8px; */
+}
+
+.invoice-item__id {
+  width: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  height: 100%;
+  margin-right: 10px;
+}
+.invoice-item__id p {
+  color: #0c0e16;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.invoice-item__id p span {
+  color: #7c5dfa;
+}
+
+.invoice-item__dueDate {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: flex-start;
+  /* border: 1px solid red; */
+  width: 140px;
+}
+.invoice-item__dueDate p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  color: #888eb0;
+}
+
+.invoice-item__name {
+  margin-right: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 1px solid red; */
+  width: 200px;
+}
+
+.invoice-item__name p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  color: #888eb0;
+}
+.invoice-item__price {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: flex-end;
+  /* border: 1px solid red; */
+  width: 100px;
+}
+.invoice-item__price p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.8px;
+  color: #0c0e16;
+}
+
+.invoice-item__to {
+  height: 100%;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #7c5dfa;
+  transition: 0.3s ease-in-out;
+}
+.invoice-item__to:hover {
+  transform: scale(1.1);
+  color: #9277ff;
+}

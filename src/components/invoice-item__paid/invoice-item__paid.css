@@ -1,0 +1,48 @@
+
+.invoice-item__paid {
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: 120px;
+}
+.invoice-paid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 40px;
+  background-color: #f8f8fb;
+  border-radius: 6px;
+}
+
+.invoice-item__paid {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.Unpaid p {
+  color: #ff8f00;
+}
+.Paid p {
+  color: #33d69f;
+}
+.invoice-item__paid .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.Unpaid .dot {
+  border: 1px solid #ff8f00;
+  background-color: #ff8f00;
+}
+.Paid .dot {
+  border: 1px solid #33d69f;
+  background-color: #33d69f;
+}

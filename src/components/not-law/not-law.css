@@ -1,0 +1,37 @@
+.Not-Law {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Not-Law i {
+  font-size: 60px;
+  margin: 20px;
+  color: red;
+}
+.Not-Law p{
+  color:red;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.25px;
+}
+.Not-Law__button{
+  margin: 10px;
+  background: #7e88c3;
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  color: white;
+
+}

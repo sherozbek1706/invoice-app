@@ -1,0 +1,9 @@
+.add-invoice-main{
+  width: 550px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
